@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class CardTest {
     private WebDriver driver;
 
-    @AfterAll
+    @BeforeAll
     static void setUpAll() {
         WebDriverManager.chromedriver().setup();}
     @BeforeEach
